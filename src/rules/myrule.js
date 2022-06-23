@@ -9,7 +9,7 @@
 
 import { elementType } from 'jsx-ast-utils';
 import { generateObjSchema, arraySchema } from '../util/schemas';
-import hasAccessibleChild from '../util/hasAccessibleChildMyrule';
+import hasAccessibleChild from '../util/hasAccessibleChild';
 import isHiddenFromScreenReader from '../util/isHiddenFromScreenReader';
 
 const errorMessage = 'Apply text must be in button elements and not div elements.';
